@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&display=swap');
+* {
+    box-sizing: border-box;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#2B2B2B;
+}
+
+.img-logo{
+    width:4%;
+}
+#brand-name{
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
+    font-weight: 400;
+}
+.box-1{
+    background: #FFFFFF;
+box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.1);
+}
+.box-2{
+font-family: 'Montserrat', sans-serif;
+font-size: 34px;
+color: #2B2B2B;
+
+}
+.box-3{
+position: relative;
+margin:0 auto;
+}
+.box-4{
+position: absolute;
+bottom:0;
+color: white;
+box-sizing: -box;
+width: 100%;
+background: #342679;
+opacity: 0.8;
+}
+.box-4 span{
+    font-weight:700;
+}
+.parent{
+    position: relative;
+    color:#2B2B2B;
+}
+.parent img{
+    width: 100%;
+}
+.parent .child{
+position: absolute;
+bottom: 0;
+background-color: white;
+opacity: 0.8;
+width: 100%;
+padding: 10px 24px;
+}
+.parent .child span{
+    font-family: inherit;
+    color: #2B2B2B;
+    font-size: 13px;
+    font-weight: 700;
+}
+.parent .child p{
+    font-size: 10px;
+}
+.parent .child button{
+    font-size: 11px;
+}
+.info h5{
+font-weight: 800;
+}
+.info p{
+    font-size: 13px;
+}
+.chef-info{
+    background-image: url("images/img6.jpg");
+    background-size: cover;
+}
+.chef-box{
+color: white;
+text-align: center;
+}
+.chef-box img{
+    width: 30%;
+}
+.chef-box span{
+    font-size: 12px;
+}
+.chef-box:hover {
+    cursor: pointer;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color: #2B2B2B;
+}
+.chef-info-active img{
+    width: 30%;
+}
+.guide-box{
+    position: relative;
+}
+.guide-1{
+    position: absolute;
+    top:10%;
+    left:3%;
+}
+.guide-box img{
+    width: 100%;
+}
+.guide-1 div , .guide-2 div,.guide-3 div , .guide-4 div{
+    background: rgba(52, 38, 121, 0.7);
+    text-align: center;
+    display: inline-block;
+}
+
+.guide-1 img, .guide-2 img,.guide-3 img, .guide-4 img{
+width: 40%;
+}
+.guide-2{
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+}
+.guide-3{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+}
+.guide-4{
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+}
